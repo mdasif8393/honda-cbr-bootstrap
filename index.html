@@ -4,9 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
     <title>Honda CBR Bootstrap</title>
 </head>
 <body>
-    
+    <!-- Start Header -->
+    <header class="container-fluid">
+        <div class="d-flex justify-content-center align-items-center row row-cols-1 row-cols-lg-2 header-decoration p-5">
+            <div>
+                <p class="text-color fw-lighter">Grab your dream bike as soon as possible. It's faster and safer.</p>
+
+                <h1 class="text-color ">Honda CBR 300R</h1>
+
+                <p class="header-paragraph-color fw-lighter">Honda is one of the world leading Bike producer. Honda CBR 300 <br> is one of the hot cake bike from Honda. It is the 300 CC version of <br> Honda CBR. Your riding will be so comfortable that you can't imagine.</p>
+
+                <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="button-decoration">Purchase</button>
+
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">Honda CBR300</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Preorder is going on. Just come to your nearest Honda Showroom and book it with advance 10000 taka.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div >
+                
+            <div>
+                <img class="img-fluid header-image-resize"  src="images/header-bike.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- Start Header -->
+
+    <main>
+        <!-- Features Bikes Start -->
+        <section class="container mt-4">
+            <div class="mb-9">
+            <h1 class="text-center ">Feature Bikes</h1>
+            <p class="text-center feature-text-decoration ">Best Bike Collection</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-lg-3 d-flex justify-content-center align-items-center p-4">
+                <div>
+                    <img class="img-fluid gray-image feature-bikes-images" src="images/feature-bike.jpg" alt="">
+                </div>
+
+                <div>
+                    <img class="img-fluid feature-bikes-images" src="images/feature-bike.jpg" alt="">
+                </div>
+
+                <div>
+                    <img class="img-fluid gray-image feature-bikes-images" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+            
+        </section>
+        <!-- Features Bikes END -->
+
+        <!-- Latest News Start -->
+        <section class="container">
+            <h1 class="text-center">Latest News</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="images/bike-1.png" class="card-img-top img-fluid p-2" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                      <p class="card-text cards-paragraph-color">Ducati Motor Holding S.p.A. is the motorcycle-manufacturing division of Italian company Ducati, headquartered in Bologna.</p>
+                      <a target="_blank" href="https://www.youtube.com/watch?v=gMCWrTI0Ojo&ab_channel=MotoGP"><button class="button-decoration">Read More</button></a>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/bike-2.png" class="card-img-top img-fluid p-2" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Motorcycles & Scooters</h5>
+                      <p class="card-text cards-paragraph-color">Price. Power. Weight. Handling. Its twin-cylinder engine revs freely and produces plenty of torque </p>
+                      <a target="_blank" href="https://www.youtube.com/watch?v=gMCWrTI0Ojo&ab_channel=MotoGP"><button class="card-button-decoration">Read More</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/bike-3.png" class="card-img-top img-fluid p-2" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">2021 Honda CBR500R</h5>
+                      <p class="card-text cards-paragraph-color">Is it any wonder why the Honda CBR500R is one of our most popular sportbikes? It just gets so many things right. </p>
+                      <a target="_blank" href="https://www.youtube.com/watch?v=gMCWrTI0Ojo&ab_channel=MotoGP"><button class="card-button-decoration">Read More</button></a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </section>
+    </main>
+
+    <!-- JavaScript Bootstrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

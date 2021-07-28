@@ -1,0 +1,59 @@
+/* Header Custom CSS */
+.header-decoration{
+    background-color: #264653;
+
+}
+
+.header-image-resize{
+    width: 552px;
+    height: 447px;
+}
+
+.text-color{
+    color: #FFFFFF;
+}
+
+.header-paragraph-color{
+    color: #E0E0E0;
+}
+
+.button-decoration{
+    background-color: #E76F51;
+    height: 44px;
+    width: 168px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+/* Features Bikes CSS */
+.feature-text-decoration{
+    color: #E76F51;
+    font-size: 14px;
+}
+
+.feature-bikes-images{
+    height: 243px;
+    width: 288px;
+}
+
+.gray-image{
+    filter: grayscale(100%);
+}
+
+/* Latest News */
+
+.card-button-decoration{
+    background-color: #FFFF;
+    height: 44px;
+    width: 168px;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    border-radius: 5px;
+    
+}
+.cards-paragraph-color{
+    color: #6C6C6C;
+}
+
