@@ -57,3 +57,40 @@
     color: #6C6C6C;
 }
 
+/* Happy Clients */
+.heading-color{
+    color: #E76F51;
+}
+
+.clients-image{
+    width: 149px;
+    height: 149px;
+}
+
+.star-color{
+    color: #E76F51;
+}
+.last-star-color{
+    color: rgb(192, 189, 189);
+}
+
+.clients-name-color{
+    color: #23A6F0;
+}
+
+/* Questions */
+.questions-image{
+    width: 431.2 px;
+    height: 423.5px;
+}
+
+/* Footer */
+.footer-decoration{
+    height: 180px;
+    background-color: #0B0D17;
+}
+
+.margin-up{
+    margin-top: 150px !important;
+}
+
